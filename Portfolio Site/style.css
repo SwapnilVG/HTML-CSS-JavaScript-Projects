@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+
+}
+#banner{
+    padding: 30px 100px 0px 100px;
+    height: 100vh;
+    background-color: rgb(245, 243, 240);
+    position: relative;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+header a #logo-x{
+    color: orange;
+    font-size: 40px;
+
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+header ul li{
+    font-weight:200;
+}
+
+#content{
+    margin-bottom: 70px;
+
+}
+#heading{
+    font-size: 70px;
+    margin-bottom: 20px;
+    
+}
+#text{
+    color: orange;
+}
+#content button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#content #chat{
+    background-color: transparent;
+    color: black;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+#daynight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    background-color: rgb(222, 220, 220);
+    height:50px;
+    width: 50px;
+    border-radius: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#daynight ion-icon:nth-child(2),#banner.night #daynight ion-icon:nth-child(1){
+    display: none;
+}
+
+#banner.night #daynight ion-icon:nth-child(2){
+    display: block;
+}
+#banner.night{
+    background-color: #333;
+}
+
+#banner.night #daynight{
+    color: #fff;
+    background-color: #444;
+    transition: 0.1s;
+}
+
+#banner.night header .logo,
+#banner.night #content h1,
+#banner.night #content p,
+#banner.night #content #chat,
+#banner.night header ul li a{
+    color: #fff;
+}
