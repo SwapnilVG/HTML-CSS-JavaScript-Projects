@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: orange;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  background-color: white;
+  border-radius: 50px;
+}
+.head {
+  padding: 20px;
+}
+hr {
+  height: 2px;
+  border: none;
+  background-color: orange;
+}
+#entry {
+  padding: 20px;
+  text-align: center;
+}
+#input {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+input:focus {
+  border: 2px solid orange;
+}
+#btn {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: orange;
+  color: white;
+  font-weight: 800;
+}
