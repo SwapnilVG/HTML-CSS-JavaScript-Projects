@@ -11,4 +11,4 @@ Here are the live demos of my projects:
 3. [Products_Details](https://effulgent-bienenstitch-07fa09.netlify.app/)  
 4. [Quick Sign](https://rad-pie-e6cc57.netlify.app/)  
 5. [Todo app](https://jovial-puffpuff-9d2366.netlify.app/)
-5. [Typing Speed Test](https://lucent-kitten-93378d.netlify.app/)
+5. [Typing Speed Test](https://luxury-lamington-e433a0.netlify.app/)
